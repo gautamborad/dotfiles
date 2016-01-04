@@ -195,13 +195,13 @@ brew tap caskroom/versions > /dev/null 2>&1
 
 # cloud storage
 #require_cask amazon-cloud-drive
-require_cask box-sync
+#require_cask box-sync
 #require_cask dropbox
 #require_cask evernote
 
 # communication
 #require_cask adium
-require_cask slack
+#require_cask slack
 
 # tools
 #require_cask comicbooklover
@@ -209,9 +209,9 @@ require_cask diffmerge
 #require_cask flash-player
 require_cask gpgtools
 # require_cask ireadfast
-require_cask iterm2
+#require_cask iterm2
 #require_cask macvim
-require_cask sizeup
+#require_cask sizeup
 #require_cask simple-comic
 #require_cask sketchup
 
@@ -223,13 +223,13 @@ require_cask atom
 # require_cask the-unarchiver
 #require_cask transmission
 # require_cask vlc
-require_cask xquartz
+#require_cask xquartz
 
 # development browsers
 # require_cask breach
 # require_cask firefox
 #require_cask firefox-aurora
-require_cask google-chrome
+#require_cask google-chrome
 # require_cask google-chrome-canary
 # require_cask torbrowser
 

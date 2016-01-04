@@ -1,9 +1,9 @@
 [user]
-	name = Adam Eivy
-	email = atomantic@gmail.com
+	name = Gautam Borad
+	email = gborad@gmail.com
 [github]
     # https://github.com/blog/180-local-github-config
-    user = atomantic
+    user = gautamborad
 
     # in a few months, look into the include directive (after bug fixes)
     token = MOVEALONG
@@ -57,6 +57,7 @@
 [alias]
 	# most commonly used
 	co = checkout
+	pur = pull --rebase
 	d = diff --color-words
 	cam = commit -a -m
 	upm = !git fetch upstream && git merge upstream/master
@@ -101,7 +102,6 @@
 	cs = status
 	rv = remote -v
 	lwr = log --stat -C
-	pur = pull --rebase
 	whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
 	orphank = !gitk --all `git reflog | cut -c1-7`&
 	orphanl = !git log --pretty=oneline --abbrev-commit --graph --decorate `git reflog | cut -c1-7`

@@ -144,7 +144,7 @@ function symlinkifne {
         # backup file does not exist yet
         if [[ ! -e ~/.dotfiles_backup/$1 ]];then
             mv $1 ~/.dotfiles_backup/
-            echo -en 'backed up saved...';
+            echo -en 'backup saved...';
         fi
     fi
     # create the link

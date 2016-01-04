@@ -59,12 +59,12 @@ set listchars=tab:>-,trail:- " show tabs and trailing whitespace
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set showmatch " show matching brackets
 set mat=5 " how many tenths of a second to blink matching brackets for
-set nohlsearch " do not highlight searched for phrases
+set hlsearch " highlight searched for phrases
 set incsearch " BUT do highlight as you type you search phrase
 set so=5 " Keep 5 lines (top/bottom) for scope
 set novisualbell " don't blink
 " statusline example: ~\myfile[+] [FORMAT=format] [TYPE=type] [ASCII=000] [HEX=00] [POS=0000,0000][00%] [LEN=000]
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set statusline=%F%m%r%h%w\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2 " always show the status line
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -90,7 +90,7 @@ set preserveindent " but above all -- follow the conventions laid before us
 set ignorecase " case insensitive by default
 set smartcase " if there are caps, go case-sensitive
 set completeopt=menu,longest,preview " improve the way autocomplete works
-set cursorcolumn " show the current column
+"set cursorcolumn " show the current column
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Folding

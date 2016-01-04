@@ -2,13 +2,12 @@
 
 ###########################
 # This script installs the dotfiles and runs all other system configuration scripts
-# @author Adam Eivy
 ###########################
 
-DEFAULT_EMAIL="atomantic@gmail.com"
-DEFAULT_GITHUBUSER="atomantic"
-DEFAULT_NAME="Adam Eivy"
-DEFAULT_USERNAME="antic"
+DEFAULT_EMAIL="gborad@gmail.com"
+DEFAULT_GITHUBUSER="gautamborad"
+DEFAULT_NAME="Gautam Borad"
+DEFAULT_USERNAME="gautamborad"
 
 
 # include my library helpers for colorized echo and require_brew, etc
@@ -133,6 +132,7 @@ symlinkifne .zshrc
 
 popd > /dev/null 2>&1
 
-./osx.sh
+bot "NOT RUNNING THE osx.sh script!!!!"
+# ./osx.sh
 
 bot "Woot! All done."
